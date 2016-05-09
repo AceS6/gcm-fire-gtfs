@@ -1,0 +1,22 @@
+{
+"token": {
+        "secret": "gooodwayyyyyyyyyyyyy"
+ },
+  "production": {
+    "username": "gtfs_prod",
+    "password": "gtfs_prod",
+    "database": "gtfs_prod",
+    "host": "46.101.11.170",
+    "dialect": "postgres"
+  },
+  "staging": {
+    "username": "gtfs_staging",
+    "password": "gtfs_staging",
+    "database": "gtfs_staging",
+    "host": "46.101.11.170",
+    "dialect": "postgres"
+  }
+}
+                                                                                                                                                                             
+                                                                                                                                                                            
+     

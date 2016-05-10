@@ -27,12 +27,16 @@ var trips  = require('./lib/routes/trips');
 var routes  = require('./lib/routes/routes');
 var stops  = require('./lib/routes/stops');
 var times  = require('./lib/routes/times');
+var subscriptions  = require('./lib/routes/subscriptions');
+var schemas  = require('./lib/routes/schemas');
 
 app.use('/', index);
 app.use('/trips', trips);
 app.use('/routes', routes);
 app.use('/stops', stops);
 app.use('/times', times);
+app.use('/subscriptions', subscriptions);
+app.use('/schemas', schemas);
 
 var server = app.listen(8085, function () {
 

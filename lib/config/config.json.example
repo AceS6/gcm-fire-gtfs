@@ -1,0 +1,10 @@
+{
+  "production": {
+    "username": "db_user",
+    "password": "your_password",
+    "database": "your_db",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+}
+

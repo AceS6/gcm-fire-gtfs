@@ -3,16 +3,16 @@
         "secret": "gooodwayyyyyyyyyyyyy"
  },
   "production": {
-    "username": "gtfs_prod",
-    "password": "gtfs_prod",
-    "database": "gtfs_prod",
-    "host": "46.101.11.170",
+    "username": "goodway_prod",
+    "password": "goodway_prod",
+    "database": "goodway_prod",
+    "host": "localhost",
     "dialect": "postgres"
   },
   "staging": {
-    "username": "gtfs_staging",
-    "password": "gtfs_staging",
-    "database": "gtfs_staging",
+    "username": "goodway_beta",
+    "password": "goodway_beta",
+    "database": "goodway_beta",
     "host": "46.101.11.170",
     "dialect": "postgres"
   }
